@@ -62,7 +62,7 @@ pip install -r requirements.txt
 ### 4. 运行程序
 
 ```bash
-python 爬虫通讯6.py
+python spider.py
 ```
 
 ## 使用说明
@@ -101,7 +101,7 @@ pip install pyinstaller
 2. 编译为Linux可执行文件：
 
 ```bash
-pyinstaller --onefile --name stock_crawler 爬虫通讯6.py
+pyinstaller --onefile --name stock_crawler spider6.py
 ```
 
 3. 编译后的可执行文件位于`dist/`目录下
