@@ -112,7 +112,7 @@ pyinstaller --onefile --name stock_crawler spider6.py
 2. 使用命令提示符或PowerShell执行：
 
 ```bat
-pyinstaller --onefile --name stock_crawler.exe 爬虫通讯6.py
+pyinstaller --onefile --name stock_crawler.exe spider6.py
 ```
 
 3. 编译后的EXE文件位于`dist/`目录下
