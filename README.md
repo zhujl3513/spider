@@ -62,7 +62,7 @@ pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
 ### 4. 运行程序
 
 ```bash
-python 爬虫通11.py
+python spider.py
 ```
 
 ## 使用说明
