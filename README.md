@@ -6,7 +6,7 @@ QuantDataCollector 是一个功能强大的A股量化数据收集工具，支持
 
 ## 功能特性
 
-- 📊 **多数据源支持**：自动切换Baostock、东方财富、同花顺等多个数据源
+- 📊 **数据源支持**：数据来源于深圳证券交易所、上海证券交易所等官方网站
 - 🎯 **全面财务指标**：收集市盈率、市净率、每股收益、营业总收入等20+关键财务指标
 - 📈 **板块分类**：自动识别主板、创业板、科创板股票
 - ⚡ **智能数据处理**：自动计算缺失指标，确保数据完整性
@@ -21,12 +21,14 @@ QuantDataCollector 是一个功能强大的A股量化数据收集工具，支持
 - Python 3.13.5
 
 ### Python依赖
-- baostock
+- re
 - pandas
 - numpy
 - requests
 - beautifulsoup4
 - tqdm
+- time
+- request
 
 ## 安装步骤
 
@@ -85,7 +87,7 @@ pip install baostock pandas numpy requests beautifulsoup4 tqdm
 
 ### 4. 下载代码
 
-将提供的 `aqu142.py` 文件保存到您的项目目录中。
+将提供的 `aqu142.py`后缀的py文件保存到您的项目目录中。
 
 ## 使用方法
 
